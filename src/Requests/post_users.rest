@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+    "name":"sd",
+    "lastName":"dd",
+    "ci":"12345678",
+    "phoneNumbre":"222333444",
+    "direction":"asd",
+    "age":"20"
+}
