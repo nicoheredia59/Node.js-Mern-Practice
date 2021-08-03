@@ -17,20 +17,4 @@ noteSchema.set('toJSON', {
 
 const Note = model ('Note', noteSchema)
 
-const note = new Note({
-    content: "Tengo miedo",
-    date: new Date(),
-    important: false
-})
-
-//note.save()
-//    .then(result => {
-//        mongoose.connection.close()
-//        console.log(result)
-//    })
-//    .catch(err => {
-//        console.error(err)
-//    })
-//
-//
 module.exports = Note
